@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1013592627103",
+    "project_id": "kaybul",
+    "storage_bucket": "kaybul.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013592627103:android:283229a1531bb70e0e8faa",
+        "android_client_info": {
+          "package_name": "com.example.kaybul_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACbIzPlHO0pGioNkmyuQa1BlI0zlLUvZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
