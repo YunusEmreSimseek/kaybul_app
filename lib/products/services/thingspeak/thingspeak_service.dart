@@ -1,5 +1,5 @@
 import 'package:flutter_thingspeak/flutter_thingspeak.dart';
-import 'package:kaybul_app/products/constants/project_constants.dart';
+import 'package:kaybul_app/products/constants/project_constant.dart';
 import 'package:kaybul_app/products/models/channel_model.dart';
 import 'package:logger/logger.dart';
 
@@ -13,7 +13,7 @@ final class ThingSpeakService extends IThingSpeakService {
   @override
   Future<Feed?> fetchLocations(String apiKey) async {
     final FlutterThingspeakClient flutterThingspeak =
-        FlutterThingspeakClient(channelID: ProjectConstants.baseChannelId, readApiKey: apiKey);
+        FlutterThingspeakClient(channelID: ProjectConstant.baseChannelId, readApiKey: apiKey);
 
     flutterThingspeak.initialize();
 

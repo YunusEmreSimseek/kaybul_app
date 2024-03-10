@@ -12,6 +12,7 @@ migrate_working_dir/
 
 # IntelliJ related
 *.iml
+.lib/products/constants/project_constant.dart
 *.ipr
 *.iws
 .idea/
